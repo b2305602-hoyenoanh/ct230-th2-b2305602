@@ -70,7 +70,7 @@
   <build>
     <plugins>
       <!-- TODO(TH2-2): chạy ./mvnw -pl catalog-service generate-sources rồi đọc BooksApi.java sinh ra
-           API-first: sinh interface + mtừ openapi.yaml; lớp controller tự viết implements interface -->
+           API-first: sinh interface  lớp controller tự viết implements interface -->
       <plugin>
         <groupId>org.openapitools</groupId>
         <artifactId>openapi-generator-maven-plugin</artifactId>
